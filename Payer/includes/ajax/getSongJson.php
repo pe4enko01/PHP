@@ -1,0 +1,12 @@
+<?php
+include("../config.php");
+
+if(isset($_POST['songId'])) {
+    $songId = $_POST['songId'];
+    $query = mysqli_query($con, "SELECT * FROM Songs WHERE id='$songId'");
+    $resultArray = mysqli_fetch_array($query);
+    $res = json_encode($resultArray);
+    echo $res;
+}
+?>
+
