@@ -1,0 +1,70 @@
+#title{
+    display: inline;
+    margin: 0 auto;
+}
+.title-block{
+    display: flex;
+    justify-content: center;
+}
+#text{
+    height: 60px;
+    width: 400px;
+}
+#username{
+    display: inline;
+}
+#e-mail{
+    display: inline;
+}
+#pic{
+    display: inline;
+}
+.form-input{
+    display: inline;
+}
+#registerForm{
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+}
+.task{
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content:space-between;
+}
+
+#admin-block{
+    display: none;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 1120px;
+    width: 100%;
+
+}
+#exit{
+    cursor: pointer;
+}
+#admin{
+    margin-top: 300px;
+    background-color: white;
+    display: block;
+    width: 350px;
+    height: 200px;
+}
+#go-admin{
+    cursor: pointer;
+}
+#adminText{
+    width: 300px;
+    height: 100px;
+}
+#pic{
+    width: 120px;
+    height: 60px;
+}
